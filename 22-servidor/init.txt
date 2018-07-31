@@ -1,0 +1,14 @@
+#Crear un entorno virtual
+virtualenv venv
+
+#Encender un entorno virtual 
+source venv/bin/activate
+venv\Scripts\activate.bat4
+##cmd Windows
+.\venv\Scripts\activate
+
+#Ver las dependencias instaladas en el entorno virtual
+pip freeze
+
+#Instalar dependencias del archivo requirements
+pip install -r requirements.txt
